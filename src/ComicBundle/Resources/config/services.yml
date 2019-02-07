@@ -1,0 +1,16 @@
+services:
+  comic.manager.librarylist:
+      class: ComicBundle\Services\Manager\LibraryListManager
+      arguments: ['@doctrine.orm.default_entity_manager']
+  comic.manager.comic:
+        class: ComicBundle\Services\Manager\ComicManager
+        arguments: ['@doctrine.orm.default_entity_manager']
+  comic.manager.user:
+          class: ComicBundle\Services\Manager\UserManager
+          arguments: ['@doctrine.orm.default_entity_manager']
+  comic.manager.toreadlist:
+      class: ComicBundle\Services\Manager\ToReadListManager
+      arguments: ['@doctrine.orm.default_entity_manager']
+  comic.manager.readlist:
+      class: ComicBundle\Services\Manager\ReadListManager
+      arguments: ['@doctrine.orm.default_entity_manager']

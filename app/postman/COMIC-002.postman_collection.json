@@ -1,0 +1,298 @@
+{
+	"info": {
+		"name": "COMIC-002",
+		"_postman_id": "149d17b8-9fd8-ca33-94a0-88185c4de0f6",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Comics from LibraryList 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8000/api/comicsfromlibrarylist/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"comicsfromlibrarylist",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Comics from LibraryList 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8000/api/comicsfromlibrarylist/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"comicsfromlibrarylist",
+						"2"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create Comic (SpiderDog 1)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/api/createcomic?name=SpiderDog&number=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"createcomic"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "SpiderDog",
+							"equals": true
+						},
+						{
+							"key": "number",
+							"value": "1",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create Comic (SpiderDog 2)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/api/createcomic?name=SpiderDog&number=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"createcomic"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "SpiderDog",
+							"equals": true
+						},
+						{
+							"key": "number",
+							"value": "2",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create User (ComicNerd)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/api/createuser?name=ComicNerd",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"createuser"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "ComicNerd",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create User (ComicFreak)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/api/createuser?name=ComicFreak",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"createuser"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "ComicFreak",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User 1 acquire comic 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/api/acquire?userid=1&comicid=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"acquire"
+					],
+					"query": [
+						{
+							"key": "userid",
+							"value": "1",
+							"equals": true
+						},
+						{
+							"key": "comicid",
+							"value": "1",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User 1 acquire comic 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/api/acquire?userid=1&comicid=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"acquire"
+					],
+					"query": [
+						{
+							"key": "userid",
+							"value": "1",
+							"equals": true
+						},
+						{
+							"key": "comicid",
+							"value": "2",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User 2 acquire comic 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/api/acquire?userid=2&comicid=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"acquire"
+					],
+					"query": [
+						{
+							"key": "userid",
+							"value": "2",
+							"equals": true
+						},
+						{
+							"key": "comicid",
+							"value": "1",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "List LibraryLists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/api/librarylist",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"librarylist"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
